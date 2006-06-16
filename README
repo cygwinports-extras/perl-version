@@ -1,0 +1,59 @@
+perl-version 
+------------------------------------------- 
+Provides perl-5.10 version objects for earlier perl versions.
+
+Runtime requirements:
+  cygwin-1.5.20-1 (>=20060604)
+  perl-5.8.7-5
+
+Build requirements:
+  cygwin-1.5.20-1 (>=20060604)
+  binutils-20050610-1
+  perl-5.8.7-5
+  perl-Module-Build-0.2801-1
+
+Canonical homepage:
+  http://search.cpan.org/dist/version/
+
+Canonical download:
+  http://www.cpan.org/authors/id/J/JP/JPEACOCK/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-version-0.63-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./version-0.63-X.sh all
+
+This will create:
+  /usr/src/perl-version-0.63-X-src.tar.bz2
+  /usr/src/perl-version-0.63-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/version/vxs/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/version/vxs/libvxs.dll.a
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/version/vxs/vxs.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/version/vxs/vxs.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/version.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/version.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/version/vxs.pm
+  /usr/share/doc/Cygwin/perl-version-0.63.README
+  /usr/share/doc/perl-version-0.63/Changes
+  /usr/share/doc/perl-version-0.63/README
+  /usr/share/man/man3/version.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.63-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
