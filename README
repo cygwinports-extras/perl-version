@@ -3,13 +3,13 @@ perl-version
 Provides perl-5.10 version objects for earlier perl versions.
 
 Runtime requirements:
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   perl-5.8.7-5
 
 Build requirements:
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.8-1
+  cygport-0.2.11-1
   perl-5.8.7-5
   perl-Module-Build-0.2801-1
 
@@ -22,15 +22,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-version-0.69-X-src.tar.bz2
+  unpack perl-version-0.71-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-version-0.69-X.cygport all
+  cygport ./perl-version-0.71-X.cygport all
 
 This will create:
-  /usr/src/perl-version-0.69-X-src.tar.bz2
-  /usr/src/perl-version-0.69-X.tar.bz2
+  /usr/src/perl-version-0.71-X-src.tar.bz2
+  /usr/src/perl-version-0.71-X.tar.bz2
 
 -------------------------------------------
 
@@ -43,14 +43,17 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/version.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/version.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/version/vxs.pm
-  /usr/share/doc/Cygwin/perl-version-0.69.README
-  /usr/share/doc/perl-version-0.69/Changes
-  /usr/share/doc/perl-version-0.69/README
+  /usr/share/doc/Cygwin/perl-version-0.71.README
+  /usr/share/doc/perl-version-0.71/Changes
+  /usr/share/doc/perl-version-0.71/README
   /usr/share/man/man3/version.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 0.71-1 -----
+Version bump.
 
 ----- version 0.69-1 -----
 Version bump.
