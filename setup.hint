@@ -1,4 +1,4 @@
 category: Perl
-requires: cygwin crypt perl
+requires: crypt perl
 sdesc: "Provides perl-5.10 version objects for earlier perl versions."
 ldesc: "Provides perl-5.10 version objects for earlier perl versions."
